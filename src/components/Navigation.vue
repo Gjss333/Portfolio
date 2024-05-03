@@ -1,8 +1,8 @@
 <template>
-    <nav>
-        <h1 class="text-3xl">Gleydson José</h1>
+    <nav class="flex justify-around items-center h-[17vh]">
+        <h1 class="text-3xl">Logo</h1>
 
-        <ul>
+        <ul class="flex gap-[2rem] text-2xl">
             <li v-for="(nav, index) in nameNavigation" :key="index">{{ nav }}</li>
         </ul>
     </nav>

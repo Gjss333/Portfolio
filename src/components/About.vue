@@ -1,5 +1,7 @@
 <template>
-<p>Sobre</p>
+    <section>
+        sobre mim
+    </section>
 </template>
 <script>
 export default{
