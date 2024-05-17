@@ -1,9 +1,8 @@
 <template>
   
     <section class="flex h-[83vh] m-0 mx-[10rem] justify-center items-center gap-[5rem]">
-        <div >
-            <i class="fab fa-github"></i>
-            <img class="t" :src="photoHome" alt="Gleydson José profile picture" height="400" width="400px">
+        <div>
+            <img class="shape-bg" :src="photoHome" alt="Gleydson José profile picture" height="400" width="400px">
         </div>
         <div class="text-center">
             <p class="text-base text-gray-600 font-semibold">Olá, eu sou</p>
@@ -53,12 +52,8 @@ export default {
 }
 </script>
 <style scoped>
-.t{
+.shape-bg{
     background-color: #8a8a8a;
     border-radius: 30% 70% 56% 44% / 32% 50% 50% 68% ; 
-}
-
-.ts{
-    border-radius: 30% 70% 56% 44% / 32% 50% 50% 68% 
 }
 </style>
