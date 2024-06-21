@@ -1,11 +1,11 @@
 <template>
-    <section class="flex justify-center items-center h-[96vh] flex-col mx-[10rem]">
+    <section class="flex justify-center gap-10 items-center h-[80vh] flex-col mx-[10rem]">
         <div>
             <h1 class="text-5xl text-center py-5 font-extrabold">Habilidades</h1>
         </div>
         <div class="flex max-w-[60rem] flex-wrap gap-5">
             <div 
-                class="flex flex-col justify-center items-center w-28  border-2 border-gray-300 p-4 rounded-2xl"
+                class="flex flex-col justify-center items-center w-28  border-2 border-gray-300 p-4 rounded-md"
                 v-for="(tech, index) in technologys" :key="index"
             >
             <img :src="tech.src" alt=""  class="h-10 w-11 mb-2">

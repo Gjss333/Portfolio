@@ -6,7 +6,7 @@
             
             <div class="flex justify-center text-center gap-4 mt-6">
 
-                <div class="w-[50%] border-solid rounded-3xl p-4  border-gray-500 border-2">
+                <div class="w-[50%] border-solid rounded-md p-4  border-gray-500 border-2">
                     <font-awesome-icon class="text-3xl" :icon="['fas', 'medal']" />
                     <p class="text-2xl font-bold">Experiência</p>
                     <p class="text-gray-600">1+ anos</p>
@@ -14,7 +14,7 @@
 
                 </div>
                 
-                <div class="w-[50%] border-solid rounded-3xl p-4 border-gray-500 border-2">
+                <div class="w-[50%] border-solid rounded-md p-4 border-gray-500 border-2">
                     <font-awesome-icon class="text-3xl" :icon="['fas', 'user-graduate']" />
                     <p class="text-2xl font-bold">Formação</p>
                     <p class="text-gray-600">Gestão de TI</p>

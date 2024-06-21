@@ -2,7 +2,7 @@
   
     <section class="flex h-[83vh] m-0 mx-[10rem] justify-center items-center gap-[5rem]">
         <div>
-            <img class="shape-bg" :src="photoHome" alt="Gleydson José profile picture" height="400" width="400px">
+            <img class="shape-bg shadow-2xl" :src="photoHome" alt="Gleydson José profile picture" height="400" width="400px">
         </div>
         <div class="text-center">
             <p class="text-base text-gray-600 font-semibold">Olá, eu sou</p>
